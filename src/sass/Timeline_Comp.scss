@@ -1,0 +1,280 @@
+.time-col {
+    background-color: white;
+    box-shadow: 1px 1px 1.7em -1em;
+    border-radius: 0.3rem;
+    // z-index: -2;
+}
+
+.time-col:hover {
+    ::-webkit-scrollbar{
+        display: block;
+        width: 0.5em;
+      }
+}
+
+.time-col-row {
+    padding: 1em 0 0em 1em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.time-col-row-col {
+    display: flex;
+    align-items: center;
+}
+
+.time-icon {
+    width: 1.9em;
+    height: 1.9em;
+    margin: -0.8em 1em 0 0
+}
+
+.time-top {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3rem;
+}
+
+.time-col-row-1 {
+    padding: 1em 1em 1em 1em;
+    border-top: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.time-col-row-col-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em;
+}
+
+#timeline-button {
+    background-color: #444054;
+    width: 30%;
+    border-radius: 10em;
+    color: white;
+    text-transform: capitalize;
+}
+
+.timeline-dot {
+    height: 0.25em;
+width: 0.25em;
+background: #f7b924;
+// background: linear-gradient(
+// #8a82fb,
+// #407ed7
+// );
+position: absolute;
+margin: -0.6em 0 0 3.4em;
+// left: 0;
+// right: 0;
+// top: 0;
+// bottom: 0;
+border-radius: 50%;
+display: grid;
+place-items: center;
+font-size: 50px;
+color: #ffffff;
+    // display: grid;
+    // width: 0.9em;
+    // height: 0.9em;
+    // position: absolute;
+    // border: #fff solid 2px;
+    // margin: -1.7em 0 0 10.8em;
+    // background-color: #f7b924;
+    // border-radius: 2em;
+    // -webkit-animation: sploosh 2s cubic-bezier(.165,.84,.44,1);
+    // -webkit-animation-iteration-count: infinite;
+}
+
+.timeline-dot:before,
+.timeline-dot:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #d6d6d644;
+    border-radius: 50%;
+    // z-index: -1;
+    opacity: 0.7;
+}
+
+.timeline-dot:before{
+    animation: pulse 1s ease-out infinite;
+}
+
+// .timeline-dot:after{
+//     animation: pulse 2s 0.5s ease-out infinite;
+// }
+
+@keyframes pulse {
+    100% {
+        transform: scale(2.5);
+    }
+}
+
+// Scroll bar css
+
+.time-col ::-webkit-scrollbar{
+    display: none;
+    width: 0.5em;
+  }
+
+.time-col ::-webkit-scrollbar-track{
+    background: rgb(150, 150, 150);
+  }
+
+.time-col  ::-webkit-scrollbar-thumb{
+    // background-image: linear-gradient(rgb(184, 184, 184), rgb(184, 184, 184));
+    background-color: #d6d6d6;
+    border-radius: 25px;
+    }
+
+
+    @media screen and (min-width:570px) and (max-width:768px){
+        #time-container {
+            margin: 0 0 1em -0.6em;
+            width: 103% !important;
+        }
+
+        #timeline-button {
+            width: 27%;
+        }
+    }
+
+    @media screen and (min-width:391px) and (max-width:420px){
+        #time-container {
+            width: 97%;
+        }
+
+        #timeline-button {
+            width: 65%;
+        }
+
+        #time-container .css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+            font-size: 0.8rem;
+            margin-top: -2px !important;
+        }
+
+        #time-container .fs-6 {
+            font-size: 0.6rem!important;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root .MuiAvatar-root {
+            border: 1px solid #fff;
+            margin-left: -1em;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root {
+            margin-left: 3em !important;
+        }
+
+        #time-container .bg-danger {
+            font-size: 0.6em;
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+        }
+
+    }
+
+    @media screen and (min-width:361px) and (max-width:390px){
+        #time-container {
+            width: 97%;
+        }
+
+        #timeline-button {
+            width: 58%;
+        }
+
+        #time-container .css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+            font-size: 0.8rem;
+            margin-top: -2px !important;
+        }
+
+        #time-container .fs-6 {
+            font-size: 0.6rem!important;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root .MuiAvatar-root {
+            border: 1px solid #fff;
+            margin-left: -1em;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root {
+            margin-left: 3em !important;
+        }
+
+        #time-container .bg-danger {
+            font-size: 0.6em;
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+        }
+
+    }
+
+    @media screen and (min-width:321px) and (max-width:360px){
+        #time-container {
+            width: 97%;
+        }
+
+        #timeline-button {
+            width: 65%;
+        }
+
+        #time-container .css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+            font-size: 0.8rem;
+            margin-top: -2px !important;
+        }
+
+        #time-container .fs-6 {
+            font-size: 0.6rem!important;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root .MuiAvatar-root {
+            border: 1px solid #fff;
+            margin-left: -1em;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root {
+            margin-left: 3em !important;
+        }
+
+        #time-container .bg-danger {
+            font-size: 0.6em;
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+        }
+
+    }
+
+    @media screen and (min-width:320px) and (max-width:359px){
+        #time-container {
+            width: 97%;
+        }
+
+        #timeline-button {
+            width: 73%;
+        }
+
+        #time-container .css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+            font-size: 0.8rem;
+            margin-top: -2px !important;
+        }
+
+        #time-container .fs-6 {
+            font-size: 0.6rem!important;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root .MuiAvatar-root {
+            border: 1px solid #fff;
+            margin-left: -1em;
+        }
+
+        #time-container .css-1ytufz-MuiAvatarGroup-root {
+            margin-left: 3em !important;
+        }
+
+        #time-container .bg-danger {
+            font-size: 0.6em;
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+        }
+
+    }

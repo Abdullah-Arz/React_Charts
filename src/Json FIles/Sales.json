@@ -1,0 +1,22 @@
+[
+    {
+        "id" : "1",
+        "sales" : "874",
+        "last" : "sales last month"
+    },
+    {
+        "id" : "2",
+        "sales" : "1283",
+        "last" : "sales Income"
+    },
+    {
+        "id" : "3",
+        "sales" : "1286",
+        "last" : "last month sales"
+    },
+    {
+        "id" : "4",
+        "sales" : "564",
+        "last" : "total revenue"
+    }
+]

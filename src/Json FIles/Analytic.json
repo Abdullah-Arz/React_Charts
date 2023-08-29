@@ -1,0 +1,29 @@
+
+
+[
+    {
+        "id" : "1",
+        "head" : "cash deposits",
+        "price" : "1,7M",
+        "percent" : "54.1",
+        "earning" : "less earnings",
+        "icon" : "./../Assests/responsive.png'"
+    },
+    {
+        "id" : "2",
+        "head" : "Invested Dividents",
+        "price" : "9M",
+        "percent" : "14.1",
+        "icon" : "./../Assets/magistrate.png",
+        "earning" : "grow rate"
+    },
+    {
+        "id" : "3",
+        "head" : "Capital Gains",
+        "price" : "$563",
+        "percent" : "7.35",
+        "icon" : "./../Assets/officebuilding.png",
+        "earning" : "increased by"
+    }
+
+]

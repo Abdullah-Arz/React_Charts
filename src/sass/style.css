@@ -1,0 +1,65 @@
+body{
+    background-color: #f1f4f6 !important;
+}
+
+.card_percent_style{
+    color: #434343;
+    margin-top: 1.8pc;
+    font-weight: 700;
+    font-size: 31px;
+}
+.card_percent_header{
+    color: #adb5bd;
+    margin-top: 0.1pc;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.card{
+    box-shadow: 0 0.46875rem 2.1875rem rgb(63 106 216 / 3%), 0 0.9375rem 1.40625rem rgb(63 106 216 / 3%), 0 0.25rem 0.53125rem rgb(63 106 216 / 5%), 0 0.125rem 0.1875rem rgb(63 106 216 / 3%);
+
+}
+
+.primary_card_boder{
+    border-bottom: 6px solid #0d6efd !important;
+}
+.secondary_card_boder{
+    border-bottom: 6px solid #d92550 !important;
+}
+.yellow_card_boder{
+    border-bottom: 6px solid #f7b924 !important;
+}
+.green_card_boder{
+    border-bottom: 6px solid #3ac47d !important;
+}
+.color_green{
+    color: #26e7a6;
+}
+.primary_color{
+    color: #0d6efd !important;
+}
+.secondary_color{
+    color: #d92550 !important;
+}
+.yellow_color{
+    color: #f7b924 !important;
+}
+.green_color{
+    color: #3ac47d !important;
+}
+.card-right-text{
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+    font-size: 22px;
+}
+.progress-percent-text{
+    font-size: 25px;
+    font-weight: 700;
+    padding-right: 11px;
+    font-family: sans-serif;
+
+}
+.h-8 {
+    height: 8px !important;
+}

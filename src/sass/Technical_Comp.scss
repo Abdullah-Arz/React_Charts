@@ -1,0 +1,253 @@
+// Carousel icon color change
+
+// .carousel-control-next-icon {
+//     background-image: url("https://www.pngitem.com/pimgs/m/139-1394986_arrows-png-next-slider-arrow-icon-png-transparent.png");
+// }
+
+// .carousel-control-prev-icon {
+//     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANEAAADxCAMAAABiSKLrAAAAhFBMVEX+/v4AAAD7+/vy8vLs7Oz4+Pjw8PBvb2/U1NTo6OjFxcWoqKji4uL19fVLS0vNzc0kJCS1tbXc3NwfHx96enqZmZlfX1+EhIQ7OzuNjY1CQkKTk5NYWFhQUFA0NDSdnZ0TExO/v79ra2tISEhAQEC4uLiHh4cWFhaurq6kpKQjIyMwMDAGF3cFAAAE4ElEQVR4nO2d0VLqQBBEs0BQFBABUREVRAX1///vgl4txUw/LFYtZ7L9BdMVS/bMdidFkZWVlZWVlVUrdS/6o/lgsu6lHuSP1JmET12nnuVPdBK+6aqVepz99RR+6K6deqB9dRp29JB6oj11v2sohLPUM+2l69+GwlHqofbRZYWhsCpTjxWvcZWhELi/SpNqQ6GZerBINWaGIeozak4tQ7epR4tT68oyFF5SzxalzsA0NED+0XXnpqFwknq4GA1tP+E09XAxOhOGzlMPF6OFMLRIPVyMzoUh5CH1Fz1803Hq4WJ0IQx1Uw8Xoyp6+K8Rkscr6eFDzAXDkW2oj1wvWPSw0S3x6FPe2oYmqYeLkU0P0M1C6802dJl6uBh1Xm1DyM1wd2Ubuk89XIyObT9MejgRhjI9HIJqRQ/D1MPFSNFDJ/VwMRL08IY0ZKzqt5q6owfkul7RQyP1cBEql7YhJj3Yq/pMDwehrjB0k3q4GA3rRA/r1MPFSNHDU+rhYrQQhpDXXWthCEkPL8IQkh5ubD8j5GH72TZ0hzSk6AG5qn+wDS2RgSwz6ANNxpSPtiFkUrMt6GGcergYde5sQ8+ph4tR104uhYvUw8VoKJJLyHCZogfkqt4dPTwJQ+7oARn0qagJfAlJD2JVP0Aett0FfQQ9PCJX9e7oQQR9Zqlni1FP0ANzVS/oAbmqV/TADPqMbENMerD9MOkh1wQOXSrog6QHdzUBQQ/zTA+HIEEPzNK+CPpMial6GfQh0kOjbxtiBn3c1QTc0YMI+jDpwfbjjx6QNYFMD4euWtUEkPQggj5zbyXjAXJVr+4evNGDu5rAjEgPpaAHZtDHHT2IVT2THsSqHlkTUPSArAl0hCFkTUDdsCKDPsXCNoRc1atbfSQ9bH5azfwfclW/UdPwM0eu6rcyHDGDPu/qVTtCbrE+ZP3VIc8K7zKeEXR5ulXDXHEjw/Vb2cuFI2IfvJDHugnUkrgQR7b2C7kyeUReuMoE6hv0l1Z0DF+Ru1T5FhlmuMThCt9hSMthDUdfVzI3KMWxtzqbbuhBgaklXlmCrIVuaEkswKF00fR267J5SqICP2MexRvisq9PvOwrZHfqCnkhK+mCmSGWwYYVlC7cRdcdvtrIYYE80wVDDulCxQKgdxctEd1AZlGKou2tq7yhC28fjiiKUtEF9Ciu6AK66Bd3F8z2m4zkMt+OKHPgVLoQL+VcQRf9mS4IynRBkKrDIRO6PulC1Eqhi37VRqAu+hVdQBf99aKLJZQu1KIfShcqRgSlCxEjGkEX/YIu5pkuDkULYckhXSDfeuDwA5aaLqAxIvXdVGiMqO0wRuSt66z76BPmUVzRBfKNY4WOEUEtKbqAlhTU+1Ggi/560QW1pFAzukC+r0vTBXTRr+gCGiNSJQXool+9AYYaI/JHF/IrDsxFf6nuLpjnVllSYD4lGSOClhREjMhhScEhXVBLCrkCTdBCWHIYI4Iu+hVdQGNEmS4IavpLRvWWtqUH5rm1ZhVo5rcW9RdtoJbE3QX034OiC+ixVVSgqQ/JposB8/9dIUoK0NRkYS/6obuUrQy64D4jowI9TT3VXqoqKUATUZ+qqEBDs8dfau6+vBV6+fdNOxVoKMn+UDl29YTedfb5mMbQHXiFmov16RoacsjKysrKyvKmf1gLRBqlM4N6AAAAAElFTkSuQmCC");
+// }
+
+.tnc-container {
+
+}
+
+.carousel-control-next-icon {
+    // width: 30px;
+    // height: 35px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2722/2722985.png");
+    border-radius: 10em;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    box-shadow: 0px 1px 4px 1px #0000004a;
+    padding: 0px;
+    filter: opacity(0.7);
+    margin-left: 3em;
+    z-index: 100;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2722/2722991.png");
+    border-radius: 10em;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    box-shadow: 0px 1px 4px 1px #0000004a;
+    padding: 0px;
+    filter: opacity(0.7);
+    margin-left: -3em;
+    z-index: 100;
+    
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 6px;
+    border-radius: 1em !important;
+    height: 6px;
+    padding: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    // background-color: #3f6ad8!important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: none !important;
+    border: 2px solid #3f6ad8 !important;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+    top:18.5em
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    border: 3px solid #3f6ad8 !important;
+    width: 6px;
+    // border-radius: 1em !important;
+    height: 7px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+    top: 18em;
+}
+
+// Progress bar css
+
+.tnc-progressbar .css-1l6rwmg-MuiLinearProgress-root .MuiLinearProgress-bar {
+    border-radius: 5px;
+    background-color: #3f6ad8!important;
+}
+
+
+.tnc-col {
+    background-color: white;
+    box-shadow: 1px 1px 1.7em -1em;
+    // margin-left: -0.6em;
+    border-radius: 0.3em;
+    width: 100%;
+}
+
+.tnc-col-row {
+    padding: 1em 0 0em 1em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.tnc-col-row-col {
+    display: flex;
+    align-items: center;
+}
+
+.tnc-icon {
+    width: 1.9em;
+    height: 1.9em;
+    margin: -0.8em 1em 0 0
+}
+
+.tnc-top {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3rem;
+}
+
+.tnc-col-row-1 {
+    padding: 1em 1em 1em 1em;
+    border-top: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.tnc-col-row-col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tnc-col-row-col-1-input {
+    border: none !important;
+}
+
+.tnc-col-row-col-1-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tnc-col-row-col-1-p {
+    text-transform: capitalize;
+    font-size: 1em;
+    color: #495057;
+    font-weight: 700;
+}
+
+.tnc-col-row-col-1-p1 {
+    text-transform: capitalize;
+    font-size: 1em;
+    color: grey;
+}
+
+.tnc-col-row-col-1-p2 {
+    color: #3ac47d!important;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.tnc-progressbar {
+    margin-top: -1em;
+}
+
+.tnc-col-row-p1 {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.tnc-col-row-p2 {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.tnc-col-row-p3 {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #f7b924;
+}
+
+.tnc-col-row-p1-p2 {
+    margin: 2em 0 0 3em;
+}
+
+.tnc-col-row-p1-icon1 {
+    width: 2em;
+    height: 2em;
+    font-weight: 700;
+    margin: -1em 1em 0 1em;
+}
+
+.tnc-col-row-p1-div {
+    display: flex;
+    align-items: center;
+}
+
+.tnc-col-row-p2-span {
+    color: #495057;
+    font-size: 2.5rem;
+}
+
+.tnc-col-row-p3-span {
+    color: #495057;
+    font-size: 1rem;
+}
+
+
+
+
+// Progress Bar Css
+
+.tnc-progressbar .progress {
+    height: 10px !important;
+    margin-top: 2em;
+}
+
+
+@media screen and (min-width:320px) and (max-width:420px){
+    .tnc-container {
+        margin: 0 0 1em 1em;
+        width: 97%;
+    }
+
+    .carousel-control-prev-icon {
+        margin-left: 0em !important;
+    }
+
+    .carousel-control-next-icon {
+        margin-left: 0em;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .tnc-container {
+        margin: 0 0 1em 0em;
+        width: 103%;
+    }
+
+    .carousel-control-prev-icon {
+        margin-left: 0em !important;
+    }
+
+    .carousel-control-next-icon {
+        margin-left: 0em;
+    }
+}

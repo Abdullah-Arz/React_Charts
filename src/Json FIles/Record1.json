@@ -1,0 +1,20 @@
+[
+    {
+        "id" : "1",
+        "fname" : "clients",
+        "lname" : "total client profit",
+        "digit" : "12.6k"
+    },
+    {
+        "id" : "2",
+        "fname" : "products sold",
+        "lname" : "total revenue streams",
+        "digit" : "45,9%"
+    },
+    {
+        "id" : "3",
+        "fname" : "clients",
+        "lname" : "total clients profit",
+        "digit" : "1896"
+    }
+]

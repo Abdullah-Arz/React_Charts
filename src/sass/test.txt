@@ -1,0 +1,102 @@
+.MuiTypography-h6 {
+    display: none;
+}
+
+// .MuiTableCell-alignLeft {
+//     text-align: center !important;
+// }
+
+.img {
+    width: 4em;
+    border-radius: 10rem;
+    height: 4em;
+    margin: 0 0 0 -3%
+}
+
+.status-p {
+    text-transform: uppercase;
+    background-color: red;
+    width: 75%;
+    border-radius:5rem ;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+}
+.status-comp-p {
+    text-transform: uppercase;
+    background-color: #3ac47d;
+    width: 75%;
+    border-radius:5rem ;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+}
+
+.status-hold-p {
+    text-transform: uppercase;
+    background-color: #16aaff;
+    width: 75%;
+    border-radius:5rem ;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+}
+
+.status-prog-p {
+    text-transform: uppercase;
+    background-color: #f7b924;
+    width: 75%;
+    border-radius:5rem ;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+}
+
+[data-rbd-drag-handle-context-id="0"] {
+    cursor: -webkit-grab;
+    cursor: grab;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #636363;
+}
+
+.MuiTableCell-root {
+    border-bottom:none !important;
+}
+
+.MuiTableSortLabel-root {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: inherit;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+    color: grey !important;
+    font-weight: 550;
+}
+
+
+.udc-name-p {
+    color: #00a2ff;
+    font-size: 17px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0 0 0;
+    cursor: pointer;
+}
+
+// .card-title {
+//     margin-bottom: var(--bs-card-title-spacer-y);
+//     display: none;
+// }
+
+// .card-header {
+//     border-bottom: none !important;
+// }
+
+tbody tr:hover {
+    background-color: #16aaff2f;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
